@@ -1,0 +1,16 @@
+{
+  "name": "note-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xiabenwei/note-blog.git",
+  "author": "xiabenwei <summer_xbw@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
