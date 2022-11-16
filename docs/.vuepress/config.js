@@ -1,6 +1,6 @@
 module.exports = {
-  title: "VuePress",
-  description: "Just playing around",
+  title: "Summer's Blog",
+  description: "先相信你自己，然后别人才会相信你",
   base: "/note-blog/",
   head: [
     [
@@ -14,6 +14,8 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
+    type: "blog",
     logo: "/assets/logo.jpg",
+    authorAvatar: "/assets/logo.jpg",
   },
 };
